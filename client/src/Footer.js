@@ -9,18 +9,17 @@ function Footer(props) {
         <div class='footer'> 
             <div class="colRow">
                 {/* IconCol would be a column of 3 icons */}
-                <div class="IconCol">
-                    <div class="iconTextRow"><img src="http://placekitten.com/25/25" />
-                        <div class="iconText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos necessitatibus
-                      corporis voluptate consectetur maiores incidunt vero beatae, voluptas illum eligendi?</div>
+                <div className="IconCol">          
+                    <div className="iconTextRow"><img src="http://placekitten.com/25/25" />
+                        <div className="iconText">Contact Placeholder</div>
                     </div>
 
-                    <div class="iconTextRow"><img src="http://placekitten.com/25/25" />
-                        <div class="iconText">(000)-000-000</div>
+                    <div className="iconTextRow"><img src="http://placekitten.com/25/25" />
+                        <div className="iconText">Linkedin Placeholder </div>
                     </div>
 
-                    <div class="iconTextRow"><img src="http://placekitten.com/25/25" />
-                        <div class="iconText">info@untitled.com</div>
+                    <div className="iconTextRow"><img src="http://placekitten.com/25/25" />
+                        <div className="iconText">info@untitled.com</div>
                     </div>
                 </div>
             </div>

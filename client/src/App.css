@@ -87,31 +87,33 @@
 
 /* The point of the footer column is to make sure that everything inside is displayed as a column  */
 
-#footer {
+
+/* Footer CSS */
+.footer {
     display: flex;
     flex-direction: column;
 }
 
 
 
-#iconCol {
+.iconCol {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
 
-#iconTextRow{
+.iconTextRow{
     display: flex;
     
 }
 
 
-#colRow {
+.colRow {
     display: flex;
 }
 
-
+/* End of footer CSS */
 
 #experience {
     display: flex;
