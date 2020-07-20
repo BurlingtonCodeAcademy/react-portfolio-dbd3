@@ -1,6 +1,5 @@
 import React from 'react'
 
-import { Link } from 'react-router-dom'
 
 class Home extends React.Component {
     constructor(props) {
@@ -28,7 +27,7 @@ class Home extends React.Component {
 
                     I am skilled with helping people less experienced than me in my past experiences as well as listening to those more experiences in order to further my growth.
 
-                    I’m an enthusiastic fan of clever, simple solutions to complex problems that show the ability to make confusing problems accessible to everyone.</p>
+                    I’m an enthusiastic fan of clever, simple solutions to complex problems that show the ability to make confusing problems accessible to everyone. This portfolio website is designed to showcase my projects, hobbies, and other facts about my life!</p>
                 </div>
             </div>
         </div>

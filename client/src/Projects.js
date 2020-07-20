@@ -5,6 +5,16 @@ function Projects(props) {
     return (
         <div id='project_container'>
             <h1>My Projects!</h1>
+            
+            <div id='project'>
+                <h3>Tic Tac Toe</h3>
+                <img src='Tic Tac Toe.png'/>
+                <div>
+                    <p>Tic Tac Toe with HTML, CSS, and Javascript was another early project done in my time in BCA
+                    </p>
+                </div>
+            </div>
+            
             <div id='project'>
                 <h3>Zorkington</h3>
                 <img src='zorkington.png'/>
@@ -34,14 +44,7 @@ function Projects(props) {
                 </div>
             </div>
 
-            <div id='project'>
-                <h3>Tic Tac Toe</h3>
-                <img src='Tic Tac Toe.png'/>
-                <div>
-                    <p>Tic Tac Toe with HTML, CSS, and Javascript was another early project done in my time in BCA
-                    </p>
-                </div>
-            </div>
+          
 
 
 
