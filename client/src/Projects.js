@@ -7,6 +7,16 @@ function Projects(props) {
             <h1>My Projects!</h1>
             
             <div id='project'>
+                <h3>Zorkington</h3>
+                <img src='zorkington.png'/>
+                <div>
+                    <p>Zorkington was the first project I designed in BCA. It is a text-based game based on the classic game Zork where the user is attempting to escape a room by solving puzzles and interacting with their environment through a text console!</p>
+                </div>
+            </div>
+            
+            
+            
+            <div id='project'>
                 <h3>Tic Tac Toe</h3>
                 <img src='Tic Tac Toe.png'/>
                 <div>
@@ -15,13 +25,7 @@ function Projects(props) {
                 </div>
             </div>
             
-            <div id='project'>
-                <h3>Zorkington</h3>
-                <img src='zorkington.png'/>
-                <div>
-                    <p>Zorkington was the first project I designed in BCA. It is a text-based game based on the classic game Zork where the user is attempting to escape a room by solving puzzles and interacting with their environment through a text console!</p>
-                </div>
-            </div>
+           
 
             <div id='project'>
                 <h3>Geo Vermonter</h3>
