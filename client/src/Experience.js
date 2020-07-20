@@ -9,7 +9,7 @@ function Experience(props) {
                 My primary goal as a software engineer is to constantly grow and gain experience in full stack web development. By constantly learning and improving, I want to make myself better at what I do each day, learning from setbacks and continuing to push forward.
                 </p>
             <div>
-
+                <h3>Work Experience</h3>
                 <div id='short-line'>My last work experience was at TomTom, where I did the following:</div>
 
                 <ul>
@@ -40,9 +40,15 @@ function Experience(props) {
                         <li>Operating Systems		Linux | Windows NT/2000 Professional/ME/XP/7</li>
                         <li>Development Environment: Eclipse | Notepad++ | Cygwin | VIM | Visual Studio</li>
                     </ul> */}
-
+                    
+                    
                 </div>
-
+                <div id='resume-div'>
+                    <h3>Download my resume by clicking the icon below!</h3>
+                    <a href="/DavidDavissResume.pdf" download>
+                        <img src="/resume_icon.png" alt="My Personal Resume Screenshot" />
+                    </a>
+                    </div>
             </div>
 
         </div>
