@@ -34,14 +34,7 @@ function Experience(props) {
                         <div id='skillRow'>Linux | Windows NT/2000 Professional/ME/XP/7</div>
                         <div id='skillRow'>Eclipse | Notepad++ | Cygwin | VIM | Visual Studio</div>
                     </div>
-                    {/* <ul>
-                        <li>Front End: HTML | HTML5 | XML | CSS</li>
-                        <li>Server Side: Apache | MySQL | PHP | PHPMyAdmin | Postgres</li>
-                        <li>Operating Systems		Linux | Windows NT/2000 Professional/ME/XP/7</li>
-                        <li>Development Environment: Eclipse | Notepad++ | Cygwin | VIM | Visual Studio</li>
-                    </ul> */}
-                    
-                    
+                             
                 </div>
                 <div id='resume-div'>
                     <h3>Download my resume by clicking the icon below!</h3>

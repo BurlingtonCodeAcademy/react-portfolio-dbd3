@@ -18,7 +18,7 @@ class Home extends React.Component {
         <div>
             <div id='intro'>
                 <div>
-                    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQE3_WMqfXEAzA/profile-displayphoto-shrink_200_200/0?e=1600300800&v=beta&t=yHfefUDzGJgw0wEgraTlR2e5y_fCEqLnE8Rg2C6aq3c"></img>
+                    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQE3_WMqfXEAzA/profile-displayphoto-shrink_200_200/0?e=1600300800&v=beta&t=yHfefUDzGJgw0wEgraTlR2e5y_fCEqLnE8Rg2C6aq3c" alt="Homepage"></img>
                     <h1>Who am I?</h1>
                 </div>
                 <div>

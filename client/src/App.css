@@ -1,3 +1,5 @@
+
+
 #header {
     height: 5vh;
     display: flex;
@@ -23,17 +25,23 @@
     align-items: center;
 }
 
+/* Universal CSS */
+
+
 * h3 {
     display: flex;
     justify-content: center;
 }
 
-
-/* #intro p {
+* p {
     display: flex;
-    text-indent: 5%;
     margin: 2vw;
-} */
+    text-indent: 5%;
+}
+
+
+
+
 
 #project {
     display: flex;
@@ -59,11 +67,6 @@
     justify-content: center;
 }
 
-/* #hobbies p {
-    display: flex;
-    margin: 2vw;
-    text-indent: 5%;
-} */
 
 #hobbies ul {
     margin: 2vw;
@@ -75,12 +78,6 @@
 #header-div {
     display: flex;
     justify-content: center;
-}
-
-* p {
-    display: flex;
-    margin: 2vw;
-    text-indent: 5%;
 }
 
 
@@ -113,7 +110,7 @@
     display: flex;
 }
 
-/* End of footer CSS */
+/* Experience CSS */
 
 #experience {
     display: flex;

@@ -1,17 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  useRouteMatch,
-  userParams
 } from "react-router-dom";
 
 import Footer from './Footer'
-import Header from './Header' 
+import Header from './Header'
 import Home from './Home'
 import About from './About'
 import Experience from './Experience'
@@ -23,7 +19,7 @@ function App() {
   return (
     <div>
       <Router>
-      <Header />
+        <Header />
         <Switch>
           <Route exact path='/' component={Home} /> {/* When adding a new page, make sure you put the route inside the switch or else the component will appear in every page*/}
           <Route path='/about' component={About} />
@@ -31,9 +27,9 @@ function App() {
           <Route path='/projects' component={Projects} />
           <Route path='/hobbies' component={Hobbies} />
         </Switch>
-      <Footer/>
+        <Footer />
       </Router>
-      
+
     </div>
   )
 }
