@@ -25,7 +25,7 @@
     align-items: center;
 }
 
-/* Universal CSS */
+/* Universal CSS //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
 * h3 {
@@ -82,10 +82,8 @@
 
 
 
-/* The point of the footer column is to make sure that everything inside is displayed as a column  */
-
-
-/* Footer CSS */
+/* The point of the footer column is to make sure that everything inside is displayed as a column */
+/* Footer CSS //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .footer {
     display: flex;
     flex-direction: column;
@@ -110,7 +108,7 @@
     display: flex;
 }
 
-/* Experience CSS */
+/* Experience Page CSS /////////////////////////////////////////////////////////////////////////////////////////////*/
 
 #experience {
     display: flex;
