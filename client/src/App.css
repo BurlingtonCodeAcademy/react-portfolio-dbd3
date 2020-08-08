@@ -103,6 +103,11 @@
     
 }
 
+.iconCol img {
+    height: 25px;
+    width: 25px;
+}
+
 
 .colRow {
     display: flex;

@@ -13,7 +13,7 @@ function Footer(props) {
                         <div className="iconText">Contact Placeholder</div>
                     </div>
 
-                    <div className="iconTextRow"><img src="http://placekitten.com/25/25" alt="Linkedin" />
+                    <div className="iconTextRow"><img src="images/linkedin_icon.png" alt="Linkedin" />
                         <div className="iconText">Linkedin Placeholder </div>
                     </div>
 
