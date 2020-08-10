@@ -25,7 +25,7 @@ function Experience(props) {
                         <div id='skillRow'>Front End</div>
                         <div id='skillRow'>Server Side</div>
                         <div id='skillRow'>Operating Systems</div>
-                        <div id='skillRow'>Operating Systems</div>
+                        <div id='skillRow'>Development Environments</div>
                     </div>
 
                     <div id='rightSkillCol'>
