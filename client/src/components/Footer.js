@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 
 
 function Footer() {
@@ -10,7 +10,7 @@ function Footer() {
             <div className="colRow">
                 {/* IconCol would be a column of 3 icons */}
                     
-                    <div className="iconTextRow"><img src="images/footer/footerlink-email.png" alt="Contact"/>
+                    <div className="iconTextRow"><Link to='/contact'><img src="images/footer/footerlink-email.png" alt="Contact"/></Link>
                         <div className="iconText">Contact Me!</div>
                     </div>
 

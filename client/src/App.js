@@ -13,6 +13,7 @@ import About from './components/About'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Hobbies from './components/Hobbies'
+import ContactInfo from './components/ContactInfo';
 
 // To push to Heroku us git push heroku master
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path='/experience' component={Experience} />
           <Route path='/projects' component={Projects} />
           <Route path='/hobbies' component={Hobbies} />
+          <Route path='/contact' component={ContactInfo}/>
         </Switch>
         <Footer />
       </Router>
