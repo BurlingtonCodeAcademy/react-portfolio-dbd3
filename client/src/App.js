@@ -1,20 +1,20 @@
 import React from 'react';
-import './App.css';
+import './style/App.css';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
 
-import Footer from './Footer'
-import Header from './Header'
-import Home from './Home'
-import About from './About'
-import Experience from './Experience'
-import Projects from './Projects'
-import Hobbies from './Hobbies'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import Home from './components/Home'
+import About from './components/About'
+import Experience from './components/Experience'
+import Projects from './components/Projects'
+import Hobbies from './components/Hobbies'
 
-// 
+// To push to Heroku us git push heroku master
 function App() {
   return (
     <div>

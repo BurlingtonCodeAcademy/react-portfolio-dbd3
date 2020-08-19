@@ -1,0 +1,346 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
+
+
+
+/* Header //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#header {
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#2F779A;
+    
+
+    
+}
+
+#header a {
+    list-style-type: none;
+    text-decoration: none;
+    color: wheat;
+    font-family: 'Red Rose', cursive;
+    font-size: x-large;
+}
+
+#header a:hover {
+    color: crimson;
+}
+
+#intro {
+    display: flex;
+    background-color: wheat;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+}
+
+/* Universal CSS //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+* h1 {
+    font-family: 'Red Rose', cursive;
+    text-align: center;
+}
+
+* h3 {
+    text-align: center;
+    font-family: 'Red Rose', cursive;
+}
+
+* p {
+    margin: 2vw;
+    text-indent: 5%;
+    max-width: 500px;
+}
+
+.center_text {
+    display: flex;
+    justify-content: center;
+}
+
+/* About //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#about img {
+    height: 250px;
+    width: 250px;
+}
+
+.scrolling_left_animation {
+    animation: mymove 1s;
+}
+
+@keyframes mymove {
+    from {left: 200px;}
+    to {left: 0px;}
+  }
+
+.scroll_left {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;	
+    overflow: hidden;
+    position: relative;
+    width: 150vw;
+ }
+
+.scroll_left .inner {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-around;
+    width: 200vw;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);	
+    transform:translateX(100%);
+    /* Apply animation to this element */	
+    -moz-animation: scroll-left 15s linear infinite;
+    -webkit-animation: scroll-left 15s linear infinite;
+    animation: scroll-left 45s linear infinite;
+   }
+   /* Move it (define the animation) */
+ 
+@-moz-keyframes scroll-left {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+   }
+   
+@-webkit-keyframes scroll-left {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+   }
+   
+@keyframes scroll-left {
+    0%   { 
+    -moz-transform: translateX(100%); /* Browser bug fix */
+    -webkit-transform: translateX(100%); /* Browser bug fix */
+    transform: translateX(100%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-100%); /* Browser bug fix */
+    -webkit-transform: translateX(-100%); /* Browser bug fix */
+    transform: translateX(-100%); 
+    }
+   }
+
+.scroll_col {
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+
+
+/* Projects ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.project_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.project_zork {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+}
+
+.project_zork p {
+    justify-content: center;
+    margin: 2vw;
+    /* max-width: 25em; */
+    font-size: 2em;
+    border: 5px black solid;
+    
+}
+
+
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: calc(50% - 5px);
+    border: 1px solid crimson;
+    
+}
+
+.project p {
+    justify-content: center;
+    margin: 2vw;
+    max-width: 25em;
+    border: 5px black solid;
+    
+}
+
+
+.project img {
+    width: 500px;
+    height: 500px;
+}
+
+.project img{
+    transition: transform 1s;
+}
+
+.project img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+
+
+#project_container h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Hobbies ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#hobbies h1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+#hobbies ul {
+    margin: 2vw;
+}
+
+
+
+
+#header-div {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Experience Page /////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#experience {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#experience ul {
+    margin: 2vw;
+}
+
+#skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#skillRow{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+#leftSkillCol{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+#rightSkillCol{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+#short-line {
+    display: flex;
+    justify-content: center;
+}
+
+#resume-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vw;
+}
+
+#resume-div img {
+    height: 100px;
+    width: 100px;
+}
+
+
+/* Footer //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* When you want the footer to stick to the bottom of the page, use a fixed position a bottom: 0, and with 100% */
+.footer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;;
+    bottom: 0;
+    height: 13em;
+}
+
+
+
+.iconCol {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.iconTextRow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconTextRow a {
+    text-decoration: none;
+}
+
+
+
+
+.iconTextRow img {
+    height: 100px;
+    width: 100px;
+}
+
+
+.iconTextRow img {
+    transition: transform 1s;
+}
+
+.iconTextRow:hover img{
+    transform: rotate(1080deg);
+   
+}
+
+.colRow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+}
+
+

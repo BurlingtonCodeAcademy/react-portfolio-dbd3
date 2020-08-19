@@ -1,9 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './App.css'
 
-function Header(props) {
-    console.log(props)
+
+function Header() {
     return (
             <div id='header'>
                 <Link to='/'>Home</Link>
