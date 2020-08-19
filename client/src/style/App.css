@@ -1,7 +1,11 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
 
-
+/* Universal Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+* a {
+    text-decoration: none;
+    font-family: 'Red Rose', cursive;
+}
 
 /* Header //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 #header {
@@ -21,15 +25,16 @@
     color: wheat;
     font-family: 'Red Rose', cursive;
     font-size: x-large;
+    transition: transform 1s;
 }
 
 #header a:hover {
     color: crimson;
+    transform: scale(1.3, 1.3);
 }
 
 #intro {
     display: flex;
-    background-color: wheat;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -64,22 +69,14 @@
     width: 250px;
 }
 
-.scrolling_left_animation {
-    animation: mymove 1s;
-}
-
-@keyframes mymove {
-    from {left: 200px;}
-    to {left: 0px;}
-  }
 
 .scroll_left {
     display: flex;
     justify-content: space-between;
     height: 400px;	
-    overflow: hidden;
+    overflow: visible;
     position: relative;
-    width: 150vw;
+    width: 100vw;
  }
 
 .scroll_left .inner {
@@ -87,7 +84,6 @@
     flex-direction: row;
     position: absolute;
     justify-content: space-around;
-    width: 200vw;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -162,7 +158,7 @@
 }
 
 
-
+/* The project must calc the width being 50% - 5px because of the 1px border */
 .project {
     display: flex;
     flex-direction: column;

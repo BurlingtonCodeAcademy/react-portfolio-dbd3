@@ -17,33 +17,33 @@ function About() {
             <div className="scroll_left">
                 <div className="inner">  
                     <div className="scroll_col">
-                        <img src="./images/bears.jpg" alt="bears"/> 
-                        <h4>If you know where you look, you'll find these!</h4>  
+                        <img src="./images/about/bears.jpg" alt="bears"/> 
+                        <h5>If you know where you look, you'll find these!</h5>  
                     </div> 
 
                     <div className="scroll_col">
-                        <img src="./images/Vermont_Tech.jpg" alt="Vermont Tech"/> 
-                        <h4>This was the college I went to, Vermont Tech!</h4>  
+                        <img src="./images/about/Vermont_Tech.jpg" alt="Vermont Tech"/> 
+                        <h5>This was the college I went to, Vermont Tech!</h5>  
                     </div> 
 
                     <div className="scroll_col">
-                        <img src="./images/Vermont_Tech.jpg" alt="Vermont Tech"/> 
-                        <h4>This was the college I went to, Vermont Tech!</h4>  
+                        <img src="./images/about/laser_boats.jpg" alt="Laser Boats"/> 
+                        <h5>These were the type of boats I sailed in at Lake Mascoma</h5>  
                     </div> 
 
                     <div className="scroll_col">
-                        <img src="./images/Vermont_Tech.jpg" alt="Vermont Tech"/> 
-                        <h4>This was the college I went to, Vermont Tech!</h4>  
+                        <img src="./images/about/gile_mountain.jpg" alt="Gile Mountain"/> 
+                        <h5>Gile Mountain is my favorite hiking spot</h5>  
                     </div> 
                 
                     <div className="scroll_col">
-                        <img src="./images/Vermont_Tech.jpg" alt="Vermont Tech"/> 
-                        <h4>This was the college I went to, Vermont Tech!</h4>  
+                        <img src="./images/about/hanover_town.jpg" alt="Hanover Town"/> 
+                        <h5>Hanover has always been a pretty town to me!</h5>  
                     </div> 
                 
                 <div className="scroll_col">
-                        <img src="./images/Vermont_Tech.jpg" alt="Vermont Tech"/> 
-                        <h4>This was the college I went to, Vermont Tech!</h4>  
+                        <img src="./images/about/hanover_snow.jpg" alt="Hanover Snow"/> 
+                        <h5>Hanover is known for its snow!</h5>  
                     </div> 
                 
                 
